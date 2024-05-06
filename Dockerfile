@@ -1,4 +1,4 @@
 
 FROM tiangolo/nginx-rtmp
 
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY ./rtmp/nginx.conf /etc/nginx/nginx.conf
